@@ -1,0 +1,64 @@
+main{
+    width: 1000px;
+    background-color: #5d4852;
+    padding: 10px;
+    margin: auto;
+}
+.header{
+    background-color: #f8f8f8;
+    width: 990px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.About{
+    background-color: silver;
+    width: 500px;
+    margin-left: 15px;
+}
+.topb{
+    display: flex;
+    
+}
+.pro{
+    background-color: white;
+    width: 320px;
+    margin: 5px;
+}
+.pro img{
+    width: 300px;
+}
+h2{
+    background-color: silver;
+}
+h3{
+    background-color: silver;
+}
+.icons img{
+    width: 50px;
+
+}
+.boxes{
+    display: flex;
+}
+button{
+    background-color: green;
+    justify-content: center;
+    border-radius: 5px;
+    display: flex;
+    
+}
+footer{
+    background-color: white;
+    text-align: center;
+    width: auto;
+}
+footer img{
+    width: 25px;
+}
+h1{
+    background-color:white;
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+        <title>Jquery Functions</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript"></script>
+    <script>
+        $(document).ready(function(){
+$('.zift').click(function(){
+			$("#zift").css('background-color','red')
+});
+$('.zift3').click(function(){
+			$("#zift3").slideToggle();
+        });
+        $('.zift4').click(function(){
+			$("#zift4").append("hgfhgfhgf");
+        });
+        $('.zift5').click(function(){
+			$("#zift5").hide();
+        });
+        $('.zift6').click(function(){
+			$("#zift5").show();
+        });
+        $('.zift7').click(function(){
+			$("#zift7").toggle();
+            });
+        
+        $('.zift8').click(function(){
+			$("#zift8").slideDown();
+        });
+        $('.zift9').click(function(){
+			$("#zift9").slideUp();
+        });
+        $('.zift10').click(function(){
+			$("#zift10").fadeIn("slow");
+        });
+        $('.zift11').click(function(){
+			$("#zift11").fadeOut("slow");
+        });
+        $('.zift12').click(function(){
+			$("#zift12").before("this is before!");
+        });
+        $('.zift13').click(function(){
+			$("#zift13").after("this is after!");
+        });
+        $('.zift14').click(function(){
+			$("#test").html("<p>this is after!</p>");
+            
+        });
+        $('.zift15').click(function(){
+			$("#zift15").attr("width","400");
+            
+        });
+        $(".zift16").click(function(){
+    alert("Value: " + $("#123").val());
+  });
+  $('.zift17').click(function(){
+			$("#zift17").text("hgfhgfhgf");
+        });
+    });
+    </script>
+
+</head>
+<body>
+    <main>
+        
+        <div class="zift">
+    <h1>ADD CLASS</h1>
+    <button class="zift"> Add Class</button>
+    <p id="zift">Click the button to add class 'red' to this paragraph</p>
+    </div>
+    <img class="zift2">
+    <h1>SlideToggle</h1>
+    <button class="zift3">SlideToggle</button>
+    <p >Click the button to slide toggle a hidden image</p>
+    <img id="zift3" src="download.jpg" alt="this guy"></img>
+
+</div>
+    </div>
+    
+    <div class="zift4">
+    <h1>Append</h1>
+    <button class="zift4">Append</button>
+    <p id="zift4">Click the button to Append a new paragraph</p>
+</div>
+    <div class="zift5">
+    <h1>HIDE</h1>
+    <button class="zift5"> hide</button>
+    <p id="zift5">click to hide paragraph</p>
+    
+    </div >
+    <div>
+    <button class="zift6"> show</button>
+        </div>
+    <div class="zift7">
+    <h1>Toggle</h1>
+    <button> toggle</button>
+    <p id="zift7">Click the button to toggle this paragraph</p>
+    </div>
+    
+
+    <div class="zift8">
+    <h1>Slide down</h1>
+    <button> slide down</button>
+    <div  id="zift8" hidden>Click the button to slide down to this paragraph</div>
+    </div>
+
+    <div class="zift9">
+    <h1>Slide up</h1>
+    <button class="zift9">Slide up</button>
+    <div id="zift9">Click the button slide up this paragraph</div>
+    
+</div>
+<div class="zift10">
+    <h1>fade in</h1>
+    <button class="zift10">fade in</button>
+    <div id="zift10" hidden>Click the button to fade in a new paragraph</div>
+</div>
+<div class="zift11">
+    <h1>Fade out</h1>
+    <button class="zift11">fade out</button>
+    <div id="zift11">Click the button to Append a new paragraph</div>
+</div>
+<div class="zift12">
+    <h1>Before</h1>
+    <button class="zift12">Before</button>
+    <p id="zift12">Click the button to add text before a paragraph</p>
+</div>
+<div class="zift13">
+    <h1>After</h1>
+    <button class="zift13">After</button>
+    <p id="zift13">Click the button to add text after a paragraph</p>
+</div>
+<div class="zift14">
+    <h1>HTML</h1>
+    <button class="zift14">HTML</button>
+    <p id="test">hi</p>
+</div>
+<div class="zift15">
+    <h1>Attr</h1>
+    <button class="zift15">Attr</button>
+    <img id="zift15" src="download.jpg" alt="this guy"></img>
+</div>
+
+<div class="zift16">
+    <h1>value</h1>
+    <button class="zift16">value</button>
+    <input type="text" id="123" value="ahmad"></input>
+</div>
+
+<div class="zift17">
+    <h1>Text</h1>
+    <button class="zift17">Text</button>
+    <p id="zift17">Click the button to change text!</p>
+</div>
+
+
+    </div>
+    
+    
+    </main>
+</body>
+</html>

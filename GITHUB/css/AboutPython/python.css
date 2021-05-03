@@ -1,0 +1,158 @@
+.body{
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	}
+	
+
+.con{
+width: 970px;
+
+background-color: #245076;
+margin:auto;
+}
+
+.header{
+	background-color: #245076;
+	width: 970px;
+	margin:auto;
+	justify-content: space-between;
+	display: flex;
+}
+
+.python{
+	width: 320px;
+	margin: 25px;
+}
+
+.p{
+color: yellow;
+}
+
+.search{
+	color: white;
+	text-align: right;
+}
+
+#s{
+	margin-left: 80px;
+}
+
+.search1{
+	background-color: #444444;
+	width:210px;
+	border-radius: 15px;
+	padding: 10px;
+	display: flex;
+}
+
+.bar{
+	text-align:center;
+	margin: 5px;
+	direction: flex;
+	justify-content: space-between;
+	}
+
+	#t{
+	margin-top:10px;
+	margin-right: 5px;
+	text-align: center;
+	}
+
+	#button{
+	background-color: #417cad;
+	justify-content: space-between;
+	}
+
+	.middle{
+	
+	width: 970px;
+	margin: auto;
+	padding-top: 1px; 
+	}
+	nav{
+		margin: 0 auto;
+		width: 750px;
+		display: flex;
+	}
+	nav ul{
+		display: flex;
+		flex:1;
+		justify-content: space-evenly;
+		background-image: linear-gradient(#3575ad, #497fad, #3575ad);
+		padding: 15px;
+		border-radius: 5px;
+		list-style: none;
+		box-shadow: 1px 1px 2px black;
+	}
+	nav ul a{
+		text-decoration: none;
+		font-family: Arial, Helvetica, sans-serif;
+		color: white;
+	}
+
+	.third{
+	padding-top:1px; 
+	margin: auto;
+	background-color: blue;
+	width: 970px;
+	}
+	
+	.li2{
+	display: flex;
+	padding-left:120px; 
+	color: white;
+	}
+	.li2 li{
+	color: white;
+	margin: 15px;
+	}
+	
+	.p2{
+	margin-left: 100px;
+	text-align: center;
+	margin-right: 150px;
+	}
+	.para{
+	color: #f9cf30;
+    font-style: italic;
+	}
+	.Mbox{
+	width: 970px;
+	background-color:white;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	}
+	.wrapper{
+    background-color: #245076;
+    width: 970px;
+    margin: auto;
+    
+    text-align: center;
+    
+}
+.wbox{
+	flex: 1;
+	width: 500px;
+
+}
+.footer a, .footer p{
+    color: #7cafdb;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+.footer ul, .footer li{
+    list-style-type: none;    
+    text-align: center;
+    display: inline-block;
+    
+}
+.bottom a{
+    text-decoration: none;
+    color: #81b0d9;
+}
+.footer{
+    background-image: linear-gradient(#275278,#3777ae);
+}
